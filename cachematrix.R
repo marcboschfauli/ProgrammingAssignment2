@@ -26,7 +26,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 # This function returns the inverse of a matrix, assuming it is invertible.
 # It first checks if the inverse has been computed. If that's the case, it
-# gets the result with the getMatrixInverse function ommiting the computation.
+# gets the result with the getMatrixInverse function omitting the computation.
 # If not,the inverse is is computed and the value is set in the cache with 
 # the setMatrixInverse function
 
